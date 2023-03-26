@@ -18,6 +18,6 @@ describe('Home', () => {
 
     expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
 
-    expect(screen.debug())
+    expect(screen.debug());
   });
 });
