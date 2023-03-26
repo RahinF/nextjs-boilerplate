@@ -1,7 +1,7 @@
 import { CodegenConfig } from '@graphql-codegen/cli';
 
 const config: CodegenConfig = {
-  schema: process.env.NEXT_PUBLIC_API_URL,
+  schema: process.env.NEXT_PUBLIC_API_URL!,
   ignoreNoDocuments: true,
   generates: {
     './src/gql/': {
